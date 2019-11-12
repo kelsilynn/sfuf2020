@@ -1,0 +1,411 @@
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	background: #000;
+}
+
+.head {
+	margin: 0;
+	padding: 0;
+}
+
+.head-graphic {
+	height: 300px;
+	background-image: url("images/starrysky95.gif");
+	background-position: bottom;
+	background-repeat: repeat-x;
+	width: 100%;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-logo {
+	width: 190px;
+}
+
+.navbar {
+	background-color: #5d448e;
+	text-align: center;
+	font-size: 1.2em;
+	height: auto;
+	z-index: 1;
+}
+
+.fa-bars,
+.fa-times {
+	font-size: 1.5em;
+	margin: 15px 0;
+	cursor: pointer;
+}
+
+.nav {
+	padding: 0;
+	margin: 0;
+	background-color: #5d448e;
+	height: 0px;
+	overflow: hidden;
+}
+
+.show-nav {
+	height: auto;
+}
+
+.nav li {
+	padding: 15px 0;
+}
+
+.nav li a {
+	font-family: 'Bowlby One SC', sans-serif;
+	text-decoration: none;
+	padding: 0 20px;
+	color: #ccc;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+	letter-spacing: 2px;
+}
+
+.nav li a:hover {
+	color: #b8b8b8;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.margin-fix {
+	margin-top: 60px;
+}
+
+.main {
+	/*height: 1200px;*/
+}
+
+.hero {
+	height: 300px;
+	/*background-image: url("images/bryan-goff-f7YQo-eYHdM-unsplash-overlay.jpg");*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hero-home {
+	background-image: url("images/jeremy-perkins-uhjiu8FjnsQ-unsplash-overlay.jpg");
+}
+
+.hero-tickets {
+	background-image: url("images/tickets-header.jpg");
+}
+
+.hero-lineup {
+	background-image: url("images/lineup-header.jpg");
+}
+
+.hero-faq {
+	background-image: url("images/faq-header.jpg");
+}
+
+.hero-contact {
+	background-image: url("images/contact-header.jpg");
+}
+
+.hero-home,
+.hero-tickets,
+.hero-lineup,
+.hero-faq,
+.hero-contact {
+	font-family: 'Bowlby One SC', san-serif;
+	letter-spacing: 2px;
+}
+
+.hero-overlay {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: rgba(0,0,0,.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hero-text {
+    font-size: 3em;
+	text-shadow: 2px 1px 1px rgba(0,0,0,.8);
+}
+
+.hero-btn {
+	font-family: 'Bowlby One SC', san-serif;
+	text-decoration: none;
+	color: #fff;
+	background: rgba(0,0,0,.8);
+	margin-top: 10px;
+	padding: 10px 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.hero-btn:hover {
+	color: #000;
+	border: 1px solid #000;
+	background: #fff;
+}
+
+.grid {
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-left,
+.grid-right {
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+	background: #fff;
+}
+
+.grid-left {
+	background-image: url("images/nav1.jpg");
+	background-size: cover;
+	background-position: center;
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	position: relative;
+}
+
+.grid-right {
+	background-image: url("images/nav2.jpg");
+	background-size: cover;
+	background-position: center;
+	border-top: 1px solid #000;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	background: rgba(0,0,0,.6);
+}
+
+.grid-cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 300px;
+}
+
+.cont-text {
+	font-family: 'Baloo Bhaina', san-serif;
+	font-size: 2em;
+	font-weight: 500;
+	text-shadow: 2px 1px 1px rgba(0,0,0,.8);
+	padding: 0 10%;
+	text-align: center;
+}
+
+.grid-btn {
+	font-family: 'Bowlby One SC', san-serif;
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin-top: 15px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background: rgba(0,0,0,.8);
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.grid-btn:hover {
+	color: #000;
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+}
+
+.subpage {
+	background: #000;
+}
+
+.content {
+	width: 80%;
+	color: #ccc;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.cr-info {
+	height: 60px;
+	background: #5d448e;
+	border-top: 1px solid #000;
+	font-size: .8em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social {
+	height: 80px;
+	background-image: url("images/jeremy-perkins-uhjiu8FjnsQ-unsplash-overlay.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.social-left,
+.social-right {
+	width: 50%;
+	padding: 0 5%;
+}
+
+.social-right {
+	text-align: right;
+	font-size: 2em;
+}
+
+.fab {
+	padding: 0 10px;
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.fab:hover {
+	color: #c2c2c2;
+	cursor: pointer;
+}
+
+.ft-tix-btn {
+	font-family: 'Bowlby One SC', san-serif;
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+	display: inline-block;
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.ft-tix-btn:hover {
+	color: #ccc;
+}
+
+.ft-tix-btn::before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 3px;
+	background: #0F83FB;
+	transition: width .3s;
+	-o-transition: width .3s;
+	-moz-transition: width .3s;
+	-webkit-transition: width .3s;
+}
+
+.ft-tix-btn:hover::before {
+	width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+
+	.navbar {
+		height: 60px;
+		background-color: #5d448e;
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+
+	.nav {
+		padding: 0;
+		height: auto;
+	}
+
+	.menu-toggle {
+		display: none;
+	}
+
+	.nav ul {
+		/*line-height: 60px;*/
+		text-align: center;
+		padding: 0;
+	}
+
+	.nav li {
+		cursor: pointer;
+		display: inline-block;
+		padding: 0;
+	}
+
+	.nav li a {
+		font-family: 'Bowlby One SC', sans-serif;
+		display: inline-block;
+		text-decoration: none;
+		padding: 0 20px;
+		color: #ccc;
+		text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+		letter-spacing: 2px;
+	}
+
+	.nav li a:hover {
+		color: #ccc;
+	}
+
+	.nav li a::after {
+		content: "";
+		display: block;
+		width: 0;
+		height: 3px;
+		background: #0F83FB;
+		transition: width .3s;
+		-o-transition: width .3s;
+		-moz-transition: width .3s;
+		-webkit-transition: width .3s;
+	}
+
+	.nav li a:hover::after {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.head-graphic {
+		background-size: contain;
+	}
+
+	.grid {
+		flex-direction: column;
+	}
+
+	.grid-left,
+	.grid-right {
+		width: 100%;
+	}
+
+} 
