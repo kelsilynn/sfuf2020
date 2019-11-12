@@ -99,6 +99,7 @@ body {
 
 .hero-home {
 	background-image: url("images/jeremy-perkins-uhjiu8FjnsQ-unsplash-overlay.jpg");
+	background-attachment: fixed;
 }
 
 .hero-tickets {
@@ -124,6 +125,7 @@ body {
 .hero-contact {
 	font-family: 'Bowlby One SC', san-serif;
 	letter-spacing: 2px;
+
 }
 
 .hero-overlay {
