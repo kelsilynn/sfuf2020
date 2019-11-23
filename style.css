@@ -396,6 +396,10 @@ body {
 
 @media only screen and (max-width: 800px) {
 
+	.heqad-logo {
+		max-width: 150px;
+	}
+
 	.head-graphic {
 		background-size: contain;
 	}
