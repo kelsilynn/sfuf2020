@@ -396,8 +396,8 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-	.heqad-logo {
-		max-width: 150px;
+	#head-logo {
+		width: 170px;
 	}
 
 	.head-graphic {
