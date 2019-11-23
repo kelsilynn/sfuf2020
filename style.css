@@ -396,9 +396,9 @@ body {
 
 @media only screen and (max-width: 800px) {
 
-	#head-logo {
+	/*#head-logo {
 		width: 170px;
-	}
+	}*/
 
 	.head-graphic {
 		background-size: contain;
