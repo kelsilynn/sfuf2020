@@ -5,6 +5,27 @@ body {
 	background: #000;
 }
 
+h2 {
+	font-family: 'Baloo Bhaina', san-serif;
+	font-size: 1.8em;
+}
+
+a {
+	color: #fff;
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+a:visited {
+	color: #fff;
+}
+
 .head {
 	margin: 0;
 	padding: 0;
@@ -102,27 +123,31 @@ body {
 	background-attachment: fixed;
 }
 
-.hero-tickets {
-	background-image: url("images/tickets-header.jpg");
+.hero-attractions {
+	background-image: url("images/attractions-header.jpg");
+	background-position: top 35% center;
 }
 
 .hero-lineup {
 	background-image: url("images/lineup-header.jpg");
+	background-position: top 40% center;
 }
 
 .hero-faq {
 	background-image: url("images/faq-header.jpg");
+	background-position: top 25% center;
 }
 
-.hero-contact {
-	background-image: url("images/contact-header.jpg");
+.hero-rules {
+	background-image: url("images/rules-header.jpg");
+	background-position: top 35% center;
 }
 
 .hero-home,
-.hero-tickets,
+.hero-attractions,
 .hero-lineup,
 .hero-faq,
-.hero-contact {
+.hero-rules {
 	font-family: 'Bowlby One SC', san-serif;
 	letter-spacing: 2px;
 
@@ -256,6 +281,34 @@ body {
 	margin: 0 auto;
 }
 
+.question {
+	margin: 30px 0 0 0;
+}
+
+.answer {
+	margin: 0 0 5px 30px;
+}
+
+.title {
+	position: relative;
+	margin: 40px 0 20px;
+	max-width: 500px;
+}
+
+.title-img {
+	border-radius: 5px;
+}
+
+.title-h2 {
+	text-shadow: 2px 2px 1px rgba(0,0,0,.8);
+	font-size: 2.4em;
+	margin: 0;
+	display: inline;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
 .cr-info {
 	height: 60px;
 	background: #5d448e;
@@ -332,6 +385,7 @@ body {
 	width: 100%;
 }
 
+
 @media only screen and (min-width: 800px) {
 
 	.navbar {
@@ -390,6 +444,18 @@ body {
 
 	.nav li a:hover::after {
 		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 850px) and (min-width: 800px) {
+
+	.navbar {
+		font-size: 1.1em;
+	}
+
+	.nav li a {
+	padding: 0 10px;
 	}
 
 }
