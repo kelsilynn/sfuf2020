@@ -487,6 +487,10 @@ a:visited {
 		width: 100%;
 	}
 
+	.title-img {
+		max-width: 300px;
+	}
+
 	.title-h2 {
 		font-size: 1.8em;
 	}
