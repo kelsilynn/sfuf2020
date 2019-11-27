@@ -314,6 +314,14 @@ a:visited {
 	right: 0;
 }
 
+.content ul {
+	margin-bottom: 45px;
+}
+
+.content li {
+	margin-bottom: 10px;
+}
+
 .cr-info {
 	height: 60px;
 	background: #5d448e;
@@ -476,7 +484,8 @@ a:visited {
 	}
 
 	.head-graphic {
-		background-size: 100%;
+		background-size: contain;
+		height: 300px;
 	}
 
 	.hero-text {
