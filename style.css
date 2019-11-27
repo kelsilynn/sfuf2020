@@ -476,7 +476,7 @@ a:visited {
 	}
 
 	.head-graphic {
-		background-size: contain;
+		background-size: 100%;
 	}
 
 	.hero-text {
