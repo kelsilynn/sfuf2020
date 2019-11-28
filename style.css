@@ -494,6 +494,8 @@ a:visited {
 
 	.hero-home {
 		background-size: auto 300px;
+		background-position: center;
+		background-attachment: scroll;
 	}
 
 	.hero-text {
