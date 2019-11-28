@@ -8,7 +8,7 @@ body {
 h2 {
 	font-family: 'Baloo Bhaina', san-serif;
 	font-size: 1.8em;
-	line-height: 30px;
+	line-height: 90%;
 }
 
 a {
@@ -102,17 +102,11 @@ a:visited {
 	margin-top: 60px;
 }
 
-.main {
-	/*height: 1200px;*/
-}
-
 .hero {
 	height: 300px;
-	/*background-image: url("images/bryan-goff-f7YQo-eYHdM-unsplash-overlay.jpg");*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	/*background-attachment: fixed;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -192,6 +186,22 @@ a:visited {
 	background: #fff;
 }
 
+.about {
+	background: #000;
+	padding: 30px 0;
+	position: relative;
+}
+
+.about p {
+	width: 60%;
+	padding: 20px;
+	margin: 0 auto;
+	line-height: 120%;
+	color: #eee;
+	background-size: 100%;
+	background-position: center;
+}
+
 .grid {
 	display: flex;
 	flex-direction: row;
@@ -205,6 +215,7 @@ a:visited {
 	height: 300px;
 	display: inline-block;
 	background: #fff;
+	position: relative;
 }
 
 .grid-left {
@@ -213,7 +224,6 @@ a:visited {
 	background-position: center;
 	border-top: 1px solid #000;
 	border-right: 1px solid #000;
-	position: relative;
 }
 
 .grid-right {
@@ -221,7 +231,6 @@ a:visited {
 	background-size: cover;
 	background-position: center;
 	border-top: 1px solid #000;
-	position: relative;
 }
 
 .overlay {
@@ -479,16 +488,16 @@ a:visited {
 		font-size: 1.3em;
 	}
 
-	/*#head-logo {
-		width: 150px;
-	}*/
-
 	.head-graphic {
 		background-size: auto 300px;
 	}
 
 	.hero-text {
 		font-size: 1.5em;
+	}
+
+	.about p {
+		width: 90%;
 	}
 
 	.grid {
