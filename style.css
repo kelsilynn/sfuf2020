@@ -393,6 +393,15 @@ form h2 {
 	background: #0F83FB;
 }
 
+.success h2 {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+.success p {
+	margin-bottom: 30px;
+}
+
 .cr-info {
 	height: 60px;
 	background: #5d448e;
