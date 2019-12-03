@@ -331,6 +331,68 @@ a:visited {
 	margin-bottom: 10px;
 }
 
+form {
+	color: #5d448e;
+	/*display: inline-block;*/
+	width: 100%;
+	max-width: 405px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+form h2 {
+	text-align: center;
+	font-size: 2.3em;
+}
+
+.form-field {
+	text-align: right;
+	vertical-align: top;
+}
+
+.form-field input,
+.form-field textarea {
+	width: 250px;
+	padding: 10px 15px;
+	border-radius: 10px;
+	border: 2px solid #5d448e;
+	color: #fff;
+	font-size: .9em;
+	font-family: 'Ubuntu', san-serif;
+	background: none;
+	margin: 0 0 15px 10px;
+}
+
+.form-field textarea {
+	vertical-align: top;
+}
+
+
+.send {
+	text-align: center;
+}
+
+.send button {
+	padding: 11px 30px 5px 30px;
+	background: #5d448e;
+	border-radius: 10px;
+	border: none;
+	color: #fff;
+	font-size: 1.3em;
+	font-family: 'Baloo Bhaina', san-serif;
+	line-height: 20px;
+	margin: 0 auto;
+	text-transform: uppercase;
+	transition: .2s;
+	-o-transition: .2s;
+	-moz-transition: .2s;
+	-webkit-transition: .2s;
+}
+
+.send button:hover {
+	background: #0F83FB;
+}
+
 .cr-info {
 	height: 60px;
 	background: #5d448e;
