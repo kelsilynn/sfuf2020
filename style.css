@@ -50,7 +50,7 @@ a:visited {
 }
 
 .navbar {
-	background-color: #473179;
+	background-color: #665195;
 	text-align: center;
 	font-size: 1.2em;
 	height: auto;
@@ -568,7 +568,12 @@ form h2 {
 	}
 
 	.head-graphic {
-		background-size: auto 300px;
+		background-size: auto 350px;
+	}
+
+	#head-logo {
+		margin-bottom: 10px;
+		width: 200px;
 	}
 
 	.hero-home {
