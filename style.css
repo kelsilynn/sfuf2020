@@ -33,7 +33,7 @@ a:visited {
 }
 
 .head-graphic {
-	height: 300px;
+	height: 350px;
 	background-image: url("images/starrysky-final.gif");
 	background-position: bottom;
 	background-repeat: repeat-x;
@@ -45,11 +45,12 @@ a:visited {
 }
 
 #head-logo {
-	width: 190px;
+	margin-bottom: 40px;
+	width: 220px;
 }
 
 .navbar {
-	background-color: #5d448e;
+	background-color: #473179;
 	text-align: center;
 	font-size: 1.2em;
 	height: auto;
@@ -66,13 +67,13 @@ a:visited {
 .nav {
 	padding: 0;
 	margin: 0;
-	background-color: #5d448e;
 	height: 0px;
 	overflow: hidden;
 }
 
 .show-nav {
 	height: auto;
+	width: 60%;
 }
 
 .nav li {
@@ -86,10 +87,6 @@ a:visited {
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 	letter-spacing: 2px;
-}
-
-.nav li a:hover {
-	color: #ccc;
 }
 
 .sticky {
@@ -296,7 +293,7 @@ a:visited {
 }
 
 .answer {
-	margin: 0 0 5px 30px;
+	margin: 2% 0 5% 5%;
 }
 
 .title {
@@ -332,7 +329,7 @@ a:visited {
 }
 
 form {
-	color: #5d448e;
+	color: #665195;
 	/*display: inline-block;*/
 	width: 100%;
 	max-width: 405px;
@@ -345,6 +342,11 @@ form h2 {
 	font-size: 2.3em;
 }
 
+.form-content {
+	max-width: 366px;
+	margin: 0 auto;
+}
+
 .form-field {
 	text-align: right;
 	vertical-align: top;
@@ -355,7 +357,7 @@ form h2 {
 	width: 250px;
 	padding: 10px 15px;
 	border-radius: 10px;
-	border: 2px solid #5d448e;
+	border: 2px solid #665195;
 	color: #fff;
 	font-size: .9em;
 	font-family: 'Ubuntu', san-serif;
@@ -374,7 +376,7 @@ form h2 {
 
 .send button {
 	padding: 11px 30px 5px 30px;
-	background: #5d448e;
+	background: #665195;
 	border-radius: 10px;
 	border: none;
 	color: #fff;
@@ -404,7 +406,7 @@ form h2 {
 
 .cr-info {
 	height: 60px;
-	background: #5d448e;
+	background: #665195;
 	border-top: 1px solid #000;
 	font-size: .8em;
 	display: flex;
@@ -483,8 +485,10 @@ form h2 {
 
 	.navbar {
 		height: 60px;
-		background-color: #5d448e;
+		background-color: #665195;
 		display: flex;
+		flex-direction: row;
+	    justify-content: space-between;	
 	    justify-content: center;
 	    align-items: center;
 	}
@@ -492,6 +496,10 @@ form h2 {
 	.nav {
 		padding: 0;
 		height: auto;
+	}
+
+	.width-fix {
+		width: 10%;
 	}
 
 	.menu-toggle {
@@ -520,7 +528,7 @@ form h2 {
 	}
 
 	.nav li a:hover {
-		color: #ccc;
+		color: rgba(255,255,255,.9);
 	}
 
 	.nav li a::after {
