@@ -689,7 +689,7 @@ form h2 {
 
 	.menu-toggle {
 		display: inline-block;
-		margin: 1%;
+		margin: 2%;
 		cursor: pointer;
 		transition: .3s;
 		-o-transition: .3s;
