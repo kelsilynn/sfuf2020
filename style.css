@@ -69,17 +69,9 @@ a:visited {
 	justify-content: space-around;
 }
 
-/*.hide-top-nav {
-	display: none;
-}*/
-
 .show-top-nav {
 	height: auto;
 	padding-top: 1%;
-}
-
-.top-nav div {
-	width: 28%;
 }
 
 .nav-tix a {
@@ -259,7 +251,7 @@ a:visited {
 
 .about p {
 	width: 60%;
-	padding: 20px;
+	padding: 3%;
 	margin: 0 auto;
 	line-height: 120%;
 	color: #eee;
@@ -564,6 +556,10 @@ form h2 {
 
 @media only screen and (min-width: 800px) {
 
+	.top-nav div {
+		width: 32%;
+	}
+
 	.nav-links {
 		height: 60px;
 		background-color: #665195;
@@ -658,7 +654,7 @@ form h2 {
 	}
 
 	.hero-home {
-		background-size: auto 300px;
+		background-size: auto 800px;
 		background-position: center;
 		background-attachment: scroll;
 	}
@@ -671,6 +667,10 @@ form h2 {
 		justify-content: space-between;
 	}
 
+	.top-nav div {
+		width: 32%;
+	}
+
 	.show-top-nav {
 		padding: 1% 2% 0;
 	}
@@ -678,11 +678,12 @@ form h2 {
 	.nav-tix {
 		order: 2;
 		font-size: .8em;
+		width: 32%;
 		text-align: center;
 	}
 
 	.nav-tix a {
-		padding: 10px 15px;
+		padding: 8px 10px;
 	}
 
 	.nav-logo {
