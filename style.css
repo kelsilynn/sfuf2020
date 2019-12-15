@@ -250,8 +250,8 @@ a:visited {
 }
 
 .about p {
-	width: 60%;
-	padding: 3%;
+	/*width: 60%;
+	padding: 3%;*/
 	margin: 0 auto;
 	line-height: 120%;
 	color: #eee;
