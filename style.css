@@ -667,10 +667,6 @@ form h2 {
 		justify-content: space-between;
 	}
 
-	.top-nav div {
-		width: 32%;
-	}
-
 	.show-top-nav {
 		padding: 1% 2% 0;
 	}
@@ -678,20 +674,22 @@ form h2 {
 	.nav-tix {
 		order: 2;
 		font-size: .8em;
-		width: 32%;
+		width: 40%;
 		text-align: center;
 	}
 
 	.nav-tix a {
-		padding: 8px 10px;
+		padding: 8px 8px;
 	}
 
 	.nav-logo {
 		order: 1;
 		text-align: left;
+		width: 28%;
 	}
 
 	.nav-social {
+		width: 28%;
 		order: 3;
 	}
 
