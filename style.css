@@ -80,7 +80,6 @@ a:visited {
 	text-decoration: none;
 	color: #fff;
 	background: #2C0C5D;
-	margin-top: 10px;
 	padding: 10px 30px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
@@ -121,7 +120,7 @@ a:visited {
 .nav {
 	padding: 0;
 	margin: 0;
-	height: 0px;
+	height: 0;
 	overflow: hidden;
 }
 
@@ -245,13 +244,12 @@ a:visited {
 
 .about {
 	background: #000;
-	padding: 8% 0;
+	padding: 8%  0;
 	position: relative;
 }
 
 .about p {
-	/*width: 60%;
-	padding: 3%;*/
+	width: 60%;
 	margin: 0 auto;
 	line-height: 120%;
 	color: #eee;
@@ -344,12 +342,12 @@ a:visited {
 .content {
 	width: 80%;
 	color: #ccc;
-	padding: 20px 0;
+	padding: 5% 0;
 	margin: 0 auto;
 }
 
 .question {
-	margin: 30px 0 0 0;
+	margin: 8% 0 0 0;
 }
 
 .answer {
@@ -475,19 +473,18 @@ form h2 {
 }
 
 .social {
-	height: 120px;
+	height: 80px;
 	background-image: url("images/jeremy-perkins-uhjiu8FjnsQ-unsplash-overlay.jpg");
 	background-size: cover;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	flex-direction: row;
 }
 
 .social-left,
-.social-right,
-.social-middle {
-	flex: 1
+.social-right {
+	flex: 1;
 	padding: 0 5%;
 }
 
