@@ -1,7 +1,6 @@
-$('.fas').click(function(){
+$('.menu-toggle').click(function(){
 	$('.nav').toggleClass('show-nav');
-	$('.fas').toggleClass('fa-bars');
-	$('.fas').toggleClass('fa-times');
+	$('.menu-toggle').toggleClass('change');
 });
 
 var num = 350; //number of pixels before modifying styles
