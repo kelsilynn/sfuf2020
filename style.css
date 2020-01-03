@@ -492,12 +492,12 @@ form h2 {
 }
 
 .ticket-tier {
-	background: #2C0C5D;
+	background: #1D0443;
 	width: 30%;
 	padding: 2%;
 	margin: 2%;
 	border-radius: 10px;
-	border: 3px #665195 dotted;
+	border: 2px #665195 dotted;
 }
 
 .ticket-tier h3,
