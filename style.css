@@ -265,7 +265,8 @@ a:visited {
 }
 
 .ab-overlay p {
-	background: #1D0443;
+	/*background: #1D0443;*/
+	background: rgba(29,4,67,.8);
 	width: 30%;
 	margin: 0 auto;
 	line-height: 120%;
